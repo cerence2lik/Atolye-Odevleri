@@ -1,0 +1,43 @@
+<!--
+
+? Display, bir HTML öğesinin (örneğin, <div>, <p>, <span>) web sayfasında 
+? nasıl görüneceğini belirleyen bir özelliktir. Başka bir deyişle, bu 
+? öğenin sayfada nasıl yerleşeceğini ve diğer öğelerle nasıl etkileşimde 
+? bulunacağını kontrol eder. Bu özellik, CSS kullanılarak ayarlanır. 
+ 
+todo Display Değerleri:
+
+todo 1. Block: 
+Bu değer, öğeyi "büyük bir kutu" gibi düşün. Sayfanın genişliği boyunca uzanır 
+ve kendi satırında yer alır. Örneğin, <div> ve <p> gibi öğeler varsayılan olarak bu 
+şekilde davranır. Bu öğelerden sonra yeni bir satır başlar.
+
+todo 2. Inline:
+Bu değer, öğeyi "satır içi" bir şey gibi düşün. Yazılarla aynı satırda durur 
+ve yanına başka öğeler de eklenebilir. Örneğin, <span> ve <a> öğeleri bu şekilde 
+davranır. Yani aynı satırda birçok öğe bir arada olabilir.
+
+todo 3. Inline-block: 
+Bu değer, öğenin inline gibi satır içinde durmasını sağlar ama aynı
+zamanda block gibi bir genişlik ve yükseklik almasına olanak tanır. Yani yan yana 
+yer alabilir ama yine de belirli bir boyutu olabilir.
+
+todo 4. None: 
+Bu değer, öğeyi tamamen gizler. Yani sayfada hiç görünmez ve hiç yer kaplamaz.
+
+-->
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Örneği</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="block-example">Bu bir blok öğedir.</div>
+    <span class="inline-example">Bu bir satır içi öğedir.</span>
+    <span class="inline-example">Bu da bir satır içi öğedir.</span>
+</body>
+</html>

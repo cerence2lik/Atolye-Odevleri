@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url(img/people.jpeg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(20px);
+}
+
+.container{
+    display: flex;
+    width: 50%;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.left-bar{
+    width: 80%;
+    background-image: url(img/people.jpeg);
+    background-position: center;
+    background-size: cover;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.right-bar{
+    text-align: center;
+    padding: 50px 40px;
+    width: 90%;
+}
+
+.right-bar-title{
+    font-size: 30px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid rgb(95, 205, 210);
+    display: inline-block;
+    padding-bottom: 5px;
+    border-radius: 2px;
+}
+
+.right-bar-form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;         /* flex verdiğimiz özelliğe gap verebiliyoruz*/
+}
+
+.field{
+    padding: 8px 11px;
+    font-size: 12px;
+    outline: none;
+    border: none;
+    background-color: rgb(197, 223, 233);
+    border-radius: 5px;
+}
+
+.form-btn{
+    border: none;
+    background-color: rgb(95, 205, 210);
+    padding: 11px;
+    font-size: 14px;
+    color: rgb(23, 56, 90);
+    border-radius: 5px;
+    cursor: pointer;  /* butonun üzerine gelindiğinde tıklanabilir olduğu anlaşılıyor*/
+
+}
+
+.field:focus{
+    border: 2px solid rgb(117, 99, 27);
+    background-color: rgb(95, 205, 210);
+    ;
+}
+
+textarea{
+    resize: none;
+}

@@ -1,0 +1,13 @@
+.block-example {
+    display: block;
+    background-color: lightblue;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.inline-example {
+    display: inline;
+    background-color: lightgreen;
+    padding: 5px;
+    margin-right: 5px;
+}
